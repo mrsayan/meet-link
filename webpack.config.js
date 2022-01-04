@@ -1,7 +1,7 @@
 module.exports = {
   mode: "production",
   devServer: {
-    contentBase: './dist'
+    static: './dist'
   },
   module: {
       rules: [
