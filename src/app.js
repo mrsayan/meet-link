@@ -10,12 +10,10 @@ export function meetcal() {
     var WT = "https://meet.google.com/njx-febs-ktn";
     var WT_LAB = "https://meet.google.com/vay-ebuu-ehx";
     var PDC = "https://meet.google.com/osj-bvqq-opb";
-    var AFL =
-      "https://us02web.zoom.us/j/86356146691?pwd=aHFEa0xiMFlnK3h5UDhDYkVyVWEzdz09";
+    var AFL = "https://us02web.zoom.us/j/86356146691?pwd=aHFEa0xiMFlnK3h5UDhDYkVyVWEzdz09";
     var COA = "https://meet.google.com/osw-qpuv-kdc";
-
-    var BC = "https://meet.google.com/xmd-tpzp-zqb"; //Not Yet Given
-
+    var BC = "https://kiit-ac-in.zoom.us/j/86741187304?pwd=MFhlNW1SRzRxYWpWbm81SWFWRXlQdz09"; //Not Yet Given
+    
     var REST = "https://unofficial.kiit.ml";
 
     
