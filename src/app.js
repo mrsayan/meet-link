@@ -8,7 +8,7 @@ export function meetcal() {
     var DBMS = "https://meet.google.com/wtx-ynmn-mqq";
     var DBMS_LAB = "https://meet.google.com/ism-visn-jqx";
     var WT = "https://meet.google.com/njx-febs-ktn";
-    var WT_LAB = "https://meet.google.com/njx-febs-ktn";
+    var WT_LAB = "https://meet.google.com/vay-ebuu-ehx";
     var PDC = "https://meet.google.com/osj-bvqq-opb";
     var AFL =
       "https://us02web.zoom.us/j/86356146691?pwd=aHFEa0xiMFlnK3h5UDhDYkVyVWEzdz09";
