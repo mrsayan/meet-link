@@ -17,7 +17,7 @@ export function meetcal() {
       var AFL = "https://us02web.zoom.us/j/86356146691?pwd=aHFEa0xiMFlnK3h5UDhDYkVyVWEzdz09";
       var BC = "https://kiit-ac-in.zoom.us/j/86741187304?pwd=MFhlNW1SRzRxYWpWbm81SWFWRXlQdz09"; //Not Yet Given
 
-      var REST = "gmeet://meet.google.com/xmd-tpzp-zqb";
+      var REST = "intent://meet.google.com/xmd-tpzp-zqb/#Intent;scheme=https;package=com.google.android.apps.meetings;end";
     } 
     else 
     {
@@ -159,7 +159,7 @@ export function meetcal() {
         window.location.href = OS_LAB;
       } else {
         // REST
-        window.location.href = REST;
+        window.location.replace = REST;
       }
     }
 
