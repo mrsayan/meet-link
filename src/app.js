@@ -3,24 +3,24 @@ import { changeTimezone } from "./timezone";
 export function meetcal() {
   setTimeout(function () {
     /*Class Links*/
-    var isAndroid = /(android)/i.test(navigator.userAgent);
-    if (isAndroid) 
-    {
-      var OS = "https://meet.google.com/xmd-tpzp-zqb";
-      var OS_LAB = "https://meet.google.com/orj-evrr-rqm";
-      var DBMS = "https://meet.google.com/wtx-ynmn-mqq";
-      var DBMS_LAB = "https://meet.google.com/ism-visn-jqx";
-      var WT = "https://meet.google.com/njx-febs-ktn";
-      var WT_LAB = "https://meet.google.com/vay-ebuu-ehx";
-      var PDC = "https://meet.google.com/osj-bvqq-opb";
-      var COA = "https://meet.google.com/osw-qpuv-kdc";
-      var AFL = "https://us02web.zoom.us/j/86356146691?pwd=aHFEa0xiMFlnK3h5UDhDYkVyVWEzdz09";
-      var BC = "https://kiit-ac-in.zoom.us/j/86741187304?pwd=MFhlNW1SRzRxYWpWbm81SWFWRXlQdz09"; //Not Yet Given
+    // var isAndroid = /(android)/i.test(navigator.userAgent);
+    // if (isAndroid) 
+    // {
+    //   var OS = "https://meet.google.com/xmd-tpzp-zqb";
+    //   var OS_LAB = "https://meet.google.com/orj-evrr-rqm";
+    //   var DBMS = "https://meet.google.com/wtx-ynmn-mqq";
+    //   var DBMS_LAB = "https://meet.google.com/ism-visn-jqx";
+    //   var WT = "https://meet.google.com/njx-febs-ktn";
+    //   var WT_LAB = "https://meet.google.com/vay-ebuu-ehx";
+    //   var PDC = "https://meet.google.com/osj-bvqq-opb";
+    //   var COA = "https://meet.google.com/osw-qpuv-kdc";
+    //   var AFL = "https://us02web.zoom.us/j/86356146691?pwd=aHFEa0xiMFlnK3h5UDhDYkVyVWEzdz09";
+    //   var BC = "https://kiit-ac-in.zoom.us/j/86741187304?pwd=MFhlNW1SRzRxYWpWbm81SWFWRXlQdz09"; //Not Yet Given
 
-      var REST = "https://urlgeni.us/TMha";
-    } 
-    else 
-    {
+    //   var REST = "https://urlgeni.us/TMha";
+    // } 
+    // else 
+    // {
       var OS = "https://meet.google.com/xmd-tpzp-zqb";
       var OS_LAB = "https://meet.google.com/orj-evrr-rqm";
       var DBMS = "https://meet.google.com/wtx-ynmn-mqq";
@@ -33,7 +33,7 @@ export function meetcal() {
       var BC = "https://kiit-ac-in.zoom.us/j/86741187304?pwd=MFhlNW1SRzRxYWpWbm81SWFWRXlQdz09"; //Not Yet Given
 
       var REST = "https://unofficial.kiit.ml";
-    }
+    //}
 
     var dte = new Date();
     var d = changeTimezone(dte, "Asia/Kolkata");
