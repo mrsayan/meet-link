@@ -159,7 +159,7 @@ export function meetcal() {
         window.location.href = OS_LAB;
       } else {
         // REST
-        window.location.replace = REST;
+        window.location.href = REST;
       }
     }
 
